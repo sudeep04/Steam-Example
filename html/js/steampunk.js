@@ -13,6 +13,7 @@ function initialize() {
   $.get("http://" + window.location.host + '/api/token',
     function (accessToken) {
 
+      console.log('In html file');
       var options = {};
       options.env = "AutodeskProduction";
       options.accessToken = accessToken;

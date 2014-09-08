@@ -15,7 +15,6 @@
 // DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
 // UNINTERRUPTED OR ERROR FREE.
 ///////////////////////////////////////////////////////////////////
-
 var CONSUMER_KEY = 'W3WcFlm2ldFt3DaLbZRGAb47fRSJAWMX';
 var CONSUMER_SECRET = 'olN6yrz6dH9mQvgd';
 var BASE_URL = 'https://developer.api.autodesk.com';
@@ -37,7 +36,8 @@ exports.getToken = function (req, res) {
   request.post(BASE_URL + '/authentication/v1/authenticate',
     { form: params },
     function (error, response, body) {
-      if (!error && response.statusCode == 200) {                
+      if (!error && response.statusCode == 200) {
+        console.log('Passed Request');
         var authResponse = JSON.parse(body);
         res.send(authResponse.access_token);
       }
