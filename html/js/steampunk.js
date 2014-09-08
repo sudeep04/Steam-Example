@@ -18,7 +18,7 @@ function initialize() {
       options.env = "AutodeskProduction";
       options.accessToken = accessToken;
       options.document =
-        "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6ZW5jbG9zX3Rlc3QxL21vZGVsLnJ2dA==";
+        "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6c3RlYW1idWNrL1NwTTNXNy5mM2Q=";
 
       // Create and initialize our 3D viewer
 
