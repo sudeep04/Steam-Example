@@ -35,7 +35,7 @@ function initialize() {
         // We have a heavy model, so let's save some work during
         // navigation
 
-        viewer.setOptimizeNavigation(true);
+        viewer.setOptimizeNavigation(true); 
 
         // Let's zoom in and out of the pivot - the screen
         // real estate is fairly limited - and reverse the
