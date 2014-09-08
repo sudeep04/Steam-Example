@@ -31,19 +31,19 @@ function initialize() {
 
         // Go with the "Riverbank" lighting and background effect
 
-        viewer.impl.setLightPreset(8);
+        //viewer.impl.setLightPreset(8);
 
         // We have a heavy model, so let's save some work during
         // navigation
 
-        viewer.setOptimizeNavigation(true); 
+        //viewer.setOptimizeNavigation(true); 
 
         // Let's zoom in and out of the pivot - the screen
         // real estate is fairly limited - and reverse the
         // zoom direction
 
-        viewer.navigation.setZoomTowardsPivot(true);
-        viewer.navigation.setReverseZoomDirection(true);
+        //viewer.navigation.setZoomTowardsPivot(true);
+        //viewer.navigation.setReverseZoomDirection(true);
 
         loadDocument(viewer, options.document);
       });
